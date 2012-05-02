@@ -1,3 +1,4 @@
+#(c) 2012 metamaquina.com.br Licensed under GPLv3 or later
 import serial
 import pygame
 import copy

@@ -1,3 +1,4 @@
+//(c) 2012 metamaquina.com.br Licensed under GPLv3 or later
 #define SAMPLES 10
 //Numero de gotas maximo estimado a partir do seguinte racioncinio:
 /*Uma chuva violenta chega a indice de 50 mm (5 cm) pluviometricos, portanto para
