@@ -5,6 +5,7 @@ import copy
 from pygame.locals import *
 from math import sqrt
 from random import random
+from time import gmtime, strftime
 x = 100
 y = 100
 
@@ -76,5 +77,5 @@ while 1:
         rain_data = []
         pygame.draw.line(graph_screen, (0, 255, 0), (frame / 20, 100 - last_mean), (frame / 20 + 1, 100 - mean))
         print mean
-        log.write("%d\n" % mean)
+        log.write("%d\n" % mean + "," + strftime("%a, %d %b %Y %H:%M:%S +0000", gmtime()))
         last_mean = mean
